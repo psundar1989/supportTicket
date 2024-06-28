@@ -1,0 +1,231 @@
+// Categories
+.custom_filter_btn {
+    min-width: 88px;
+}
+.categories_table {
+    max-width: 1200px;
+}
+
+// Notification
+// .notification {
+//     padding-top: 70px;
+// }
+.notify_item {
+    background-color:white;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 10px;
+}
+.list_styletype_none {
+    list-style-type: none;
+}
+.notify_items {
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    height: calc(100vh - 265px);
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #405189 #e3e6f0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.notify_item_left {
+    gap: 20px;
+}
+.notify_filter_wrap {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.notification_wrap {
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 60px;
+}
+.notification_tit {
+    padding-right: 20px;
+    white-space: nowrap;
+    display:flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    font-size: 1rem;
+}
+.delete_icon, .notify_icon {
+    font-size: 16px;
+    color: #405189;
+    background-color: #8fa7f533;
+    padding:7px;
+    border-radius: 50%;
+}
+.notify_delete_btn {
+    all: unset;
+    text-align: center;
+}
+.notify_badge {
+    display: flex;
+    font-size: 12px;
+    padding: 8px 16px;
+    align-items: center;
+}
+.ticket_checkbox_lab {
+    padding-left: 10px;
+    margin: 0;
+}
+.no_dataFnd_tit {
+    font-size: 18px;
+}
+.no_data_found {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+// Support Ticket
+.ticket_details {
+    padding: 10px 0 0;
+    color: #9ba5ca;
+    font-size: 10px;
+}
+.ticket_date {
+    padding-left: 8px;
+}
+.custom_dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: var(--color);
+}
+.priority_status, .ticket_cat, .ticket_date {
+    padding-left: 5px;
+}
+.priority_status {
+    color: var(--color);
+}
+.ticket_title {
+    font-weight: 500;
+}
+.vertical_line {
+    position: relative;
+    &:before {
+        content:"";
+        position: absolute;
+        height: 100%;
+        width: 0.5px;
+        background-color: #9ba5ca61;
+        left: -12px;
+    }
+}
+
+// add icon group//
+
+.add_group{
+    width: 30px;
+    height: 30px;
+    background-color: var(--vz-primary);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.add_group span{
+    color: white !important;
+}
+// Dashboard
+.dashboard_card {
+    min-width: 250px;
+}
+.created_date_data {
+    margin: 0;
+}
+
+// Announcement
+.table_title_ellipsis {
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.db_table_title_ellipsis {
+    width: 165px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.smtable_title_ellipsis {
+    width: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+//select table
+.css-1y7rh0y-MultiValueGeneric2{
+color: white !important;
+}
+.css-b62m3t-container{
+    width: 100%;
+}
+// Customer Page
+.badge_success {
+    background-color: #0dcd94;
+}
+.login_as_btn {
+    padding: 7px 10px;
+}
+.arrow_color{
+    color: #9ba5caad;
+}
+
+// App Setting > Ticket Setting
+.mandatory {
+    color: red;
+}
+.ticket_item_wrap {
+    padding-left: 50px;
+    border-bottom: 1px solid  #e6ebf1;
+}
+.ticket_item_btn {
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+.ticket_item_inp {
+    height: 38px;
+    padding: 10px;
+    border: 1px solid #d3dfea;
+    border-radius: 8px;
+}
+.w_300px {
+    width: 300px;
+}
+.ticket_item_wrap .form-switch .form-check-input {
+    width: 3em;
+    height: 20px;
+}
+
+// Common CSS
+.muted_text {
+    color: #9ba5ca;
+}
+.attachment_items_wrap {
+    height: 253px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+// Global Tickets > Recent Tickets
+.assign_btn .dropdown-toggle::after {
+    vertical-align: inherit;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
